@@ -24,7 +24,6 @@ export default function ChatBox() {
                                                 message.type === messageType.JOIN ||
                                                 message.type === messageType.LEAVE
                                             ){
-                                                //count = message.PrevCount;
                                                 count = message.currentOnlineCount;
                                             }
                                             return <></>;
